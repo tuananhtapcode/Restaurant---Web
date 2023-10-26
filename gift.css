@@ -1,0 +1,265 @@
+body {
+       width: 100%;
+       background-color:#8a8a8a;
+}
+
+.main {
+       width: 100%;
+       height: 600px;
+       background-color: #2f2f2f;
+}
+.main h1 {
+       padding: 110px;
+       text-align: center;
+       color: #fff;
+       font-size: 40px;
+}
+.main p {
+       text-align: center;
+       color: #fff;
+}
+.main .text1 {
+       line-height: 50%;
+       font-size: 50px;
+}
+.main .text2 {
+       padding: 40px;
+       font-size: 18px;
+}
+
+.main button {
+       width: 500px;
+       height: 100px;
+       border-radius: 10px 10px 0px 0px;
+       position: absolute;
+       top: 500px;
+}
+.main .nut1 {
+       background-color: #1a1a1a;
+       color: #8a8a8a;
+       font-size: 35px;
+       left: 200px;
+}
+
+.main .nut2 {
+       background-color: #2f2f2f;
+       border: 1px solid #8a8a8a;
+       color: #fff;
+       font-size: 35px;
+       left: 840px;
+}
+.main2 {
+       background-color: #2f2f2f;
+}
+.main2 .boxtrai {
+       position: absolute;
+       top: 640px;
+       left: 10px;
+       width: 250px;
+       height: 400px;
+       background-color: #1a1a1a;
+       color: #fff;
+       border-radius: 5px;
+}
+.main2 .boxtrai p {
+       padding: 40px 0 10px 10px;
+}
+.main2 .boxtrai .thetrai {
+       display: block;
+       width: 220px;
+       height: 50px;
+       background-color: #1a1a1a;
+       border: 1px solid #8a8a8a;
+       color: #fff;
+       border-radius: 5px;
+       margin: 10px;
+}
+.main2 .boxtrai .nutclear {
+       display: block;
+       width: 220px;
+       height: 50px;
+       background-color: #8a8a8a;
+       border-radius: 5px;
+       margin: 10px;
+       border: 1px solid #fff;
+}
+.boxphaitren {
+       background-color:#1a1a1a;
+       width: 1200px;
+       height: 90px;
+       position: absolute;
+       top: 640px;
+       left: 290px;
+       border-radius: 5px;
+}
+.boxphaitren .tieude {
+       color:#fff;
+       position: absolute;
+       left: 73%;
+       top: 35px;
+}
+.boxphaitren h1 {
+       color:#8a8a8a;
+       padding: 25px;
+}
+.boxphaitren button {
+       position: absolute;
+       background-color:#1a1a1a;
+       color: #8a8a8a;
+       width: 200px;
+       height: 60px;
+       top: 15px;
+       font-size: 15px;
+       left: 970px;
+       border: 1px solid #8a8a8a;
+       border-radius: 4px;
+}
+
+
+
+
+.boxphaiduoi {
+       height: 900px;
+       width: 100%;
+       background-color: #2f2f2f;
+}
+.boxphaiduoi .boxphaiduoi1 {
+       width: 350px;
+       height: 650px;
+       background-color: rgba(37,37,37,255);
+       position: absolute;
+       position: relative;
+       top: 155px;
+       left: 290px;
+}
+.boxphaiduoi .boxphaiduoi1 span {
+       position: absolute;
+       left: 10px;
+       top: 140px;
+       color:#ebe2e2;
+       font-weight: bold;
+       font-size: 20px;
+}
+.boxphaiduoi .boxphaiduoi1 img {
+       opacity: 0.7;
+       width: 100%;
+}
+.boxphaiduoi .boxphaiduoi1 .boxtrongbox1 {
+       width: 100%;
+       height: 380px;
+       color: #fff;
+       font-size: 15px;
+       text-align: center;
+       opacity: 0.7;
+}
+.boxphaiduoi .boxphaiduoi1 img:hover {
+opacity: 1;
+}
+.boxphaiduoi .boxphaiduoi1 .boxtrongbox1:hover {
+       opacity: 1;
+}
+
+
+
+.boxphaiduoi .boxphaiduoi2 {
+       width: 350px;
+       height: 650px;
+       background-color: rgba(37,37,37,255);
+       position: absolute;
+       position: relative;
+       top: -495px;
+       left: 720px;
+}
+.boxphaiduoi .boxphaiduoi2 span {
+       position: absolute;
+       left: 10px;
+       top: 140px;
+       color:#ebe2e2;
+       font-weight: bold;
+       font-size: 20px;
+}
+.boxphaiduoi .boxphaiduoi2 img {
+       opacity: 0.7;
+       width: 100%;
+}
+.boxphaiduoi .boxphaiduoi2 .boxtrongbox2 {
+       width: 100%;
+       height: 380px;
+       color: #fff;
+       font-size: 15px;
+       text-align: center;
+       opacity: 0.7;
+}
+.boxphaiduoi .boxphaiduoi2 img:hover {
+opacity: 1;
+}
+.boxphaiduoi .boxphaiduoi2 .boxtrongbox2:hover {
+       opacity: 1;
+}
+
+
+
+.boxphaiduoi .boxphaiduoi3 {
+       width: 350px;
+       height: 650px;
+       background-color: rgba(37,37,37,255);
+       position: absolute;
+       position: relative;
+       top: -1145px;
+       left: 1140px;
+}
+.boxphaiduoi .boxphaiduoi3 span {
+       position: absolute;
+       left: 10px;
+       top: 140px;
+       color:#ebe2e2;
+       font-weight: bold;
+       font-size: 20px;
+}
+.boxphaiduoi .boxphaiduoi3 img {
+       opacity: 0.7;
+       width: 100%;
+}
+.boxphaiduoi .boxphaiduoi3 .boxtrongbox3 {
+       width: 100%;
+       height: 380px;
+       color: #fff;
+       font-size: 15px;
+       text-align: center;
+       opacity: 0.7;
+}
+.boxphaiduoi .nutmua {
+       width: 150px;
+       height: 60px;
+       background-color: #fff;
+       font-size: 15px;
+       border-radius: 6px; 
+       position: absolute;
+       left: 20px;
+       top: 560px;
+}
+.boxphaiduoi .nutthem {
+       width: 150px;
+       height: 60px;
+       background-color:#2f2f2f;
+       font-size: 15px;
+       border-radius: 6px;
+       border: 1px solid #8a8a8a;
+       color:#fff;
+       position: absolute;
+       top: 560px;
+       left: 185px;
+}
+.boxphaiduoi .boxphaiduoi3 img:hover {
+opacity: 1;
+}
+.boxphaiduoi .boxphaiduoi3 .boxtrongbox3:hover {
+       opacity: 1;
+}
+.footer {
+       position: absolute;
+       top: 1500px;
+       width: 100%;
+}
+
+

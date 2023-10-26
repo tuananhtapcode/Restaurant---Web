@@ -1,0 +1,228 @@
+.container {
+  margin-top: 65px;
+  background-color: #303030;
+}
+.meunu-item:hover .option {
+  display: block;
+  animation: slideDown 0.1s ease-in;
+}
+.option {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #1a1a1a;
+  min-width: 200px;
+  display: none;
+}
+.option div:hover {
+  background-color: #2f2f2f;
+  transition: all 0.3s ease-in-out;
+}
+.option div {
+  padding: 17px 0 17px 24px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.img {
+  width: 100%;
+  max-height: 577px;
+  transition: all 2s ease-in-out;
+  object-fit: cover;
+}
+.img-icon-right {
+  position: absolute;
+  right: 26px;
+  top: 43%;
+  font-size: 42px;
+  color: white;
+}
+.img-icon-left {
+  position: absolute;
+  left: 26px;
+  top: 43%;
+  font-size: 42px;
+  color: white;
+}
+.auto-change {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.cricle {
+  background-color: #8a8a8a;
+  color: #8a8a8a;
+  border-radius: 50%;
+}
+.active {
+  background-color: white;
+  color: white;
+  border-radius: 50%;
+}
+h2 {
+  position: absolute;
+}
+.content-extra {
+  position: absolute;
+  color: white;
+  opacity: 1 !important;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, 0%);
+  width: 100%;
+}
+.btn-extra {
+  padding: 22px 13px;
+  border: 1px solid #424242;
+  border-radius: 3px;
+  background-color: black;
+  color: #8a8a8a;
+  font-size: 16px;
+  margin-top: 36px;
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  z-index: 1;
+  min-width: 270px;
+}
+a,
+button,
+li,
+i {
+  cursor: pointer;
+}
+.btn-extra-icon {
+  margin-left: 96px;
+  font-size: 18px;
+  font-size: 18px;
+}
+.container-extra {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  cursor: pointer;
+  background-color: #303030;
+}
+.content-cover {
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+}
+.container-main {
+  position: relative;
+}
+.content-cover-main {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 18px 0;
+}
+.content-cover-name {
+  background-color: transparent;
+  border: 1px solid;
+  position: absolute;
+  padding: 55px 28px;
+  top: 15%;
+  left: 50%;
+  font-weight: 700;
+  transform: translate(-50%, -10%);
+  color: white;
+  z-index: 1;
+}
+.img-extra {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  transition: all 0.5s ease-in-out;
+}
+.grid_column-3:hover .img-extra {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.booking {
+  background-color: black;
+  height: 71px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.footer {
+  margin-bottom: 70px;
+  background-color: #1a1a1a;
+}
+.footer-btn {
+  padding: 14px 17px;
+  border: 1px solid #424242;
+  border-radius: 3px;
+  background-color: black;
+  color: #8a8a8a;
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: 100;
+  z-index: 2;
+}
+.icon-booking {
+  margin-left: 70px;
+  font-size: 18px;
+}
+.booking-table {
+  padding: 18px 40px;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  background-color: #ccc8c8;
+  color: #101010;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-family: "BT Futura W01", Arial, sans-serif;
+  font-size: 19px;
+}
+.img-gallery {
+  width: 100%;
+  height: 100%;
+}
+.view-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-gallery {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+}
+.underline-top {
+  background-color: white;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  min-width: 70px;
+  height: 9px;
+}
+.underline-bottom {
+  background-color: white;
+  color: white;
+  position: absolute;
+  top: 64%;
+  left: 40%;
+  min-width: 70px;
+  height: 9px;
+}

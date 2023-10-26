@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BT Futura W01", Arial, sans-serif;
+  }
+  
+  .navbar-expand-lg {
+    padding: 0 !important;
+  }
+  
+  .nav-item {
+    padding: 10px;
+    color: #656262;
+    border-left: 0.5px solid rgb(59, 58, 58);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px 5px;
+    border-left: 0.5px solid rgb(77, 75, 75);
+  
+  
+  
+  }
+  .link{
+    color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+   } 
+  
+  .dropdown-toggle {
+    padding: 10px 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #151616;
+    padding: 10px 0;
+    border: 1px solid #2d2b2b;
+    display: none;
+  
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #e7e1e1;
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #2f2f2f;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    /* background-color: #524f4f; */
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .dropdown-toggle:hover {
+  
+    color: white;
+  }
+  
+  .navbar-collapse {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+  }
+  
+  .navbar-brand {
+    line-height: 16px;
+    font-weight: 700;
+    font-weight: bold;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .nav-item:hover {
+    background-color: #2f2f2f;
+  }
+  
+  .dropdown:hover {
+    background-color: #2f2f2f;
+  }
+  .content-extra{
+    background-color: #151515;
+    padding: 10px;
+  }
+  .justify-content-between{
+    margin: 0px;
+  }
+  .img {
+    width: 100%;
+    max-height: 577px;
+    transition: all 2s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .img-icon-left:hover .img {
+    transition: all 2s ease-in-out;
+  }
+  
+  .img-icon-right {
+    position: absolute;
+    right: 26px;
+    top: 43%;
+    font-size: 42px;
+    color: white;
+  }
+  
+  .img-icon-left {
+    position: absolute;
+    left: 26px;
+    top: 43%;
+    font-size: 42px;
+    color: white;
+  }
+  
+  .auto-change {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+  }
+  
+  .cricle {
+    background-color: #8a8a8a;
+    color: #8a8a8a;
+    border-radius: 50%;
+  }
+  
+  .active {
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .container-main {
+    margin-top: 59px;
+    position: relative;
+  }
+  
+  .img-extra {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .btn-wrap {
+    display: flex;
+  }
+  
+  .btn-extra {
+    margin-left: 10px;
+    background-color: #151515;
+    color: #d0d0d0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .btn-extra-1 {
+    background-color: #f5f0f0;
+    color: #151515;
+    padding: 10px 15px;
+    margin-left: 10px;
+  
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+  
+  }
+  
+  .table-cell {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .one {
+    font-family: "BT Futura W01", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 36px;
+    color: #d0d0d0;
+    text-transform: uppercase;
+  }
+  
+  .two {
+    font-family: "BT Futura W01", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 24px;
+    color: #d0d0d0;
+    text-transform: uppercase;
+  }
+  
+  .rte p {
+    background-color: rgb(74, 71, 71);
+    color: #d0d0d0;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+  
+  }
+  
+  .content-cover-extra {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+    color: #d0d0d0;
+    text-align: center;
+  }
+  
+  .content-cover-main {
+    color: #d0d0d0;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+  .icons {
+  
+    top: 10px;
+    left: 10px;
+    color: #fff;
+  }
+  
+  .video-item {
+    margin-bottom: 20px;
+  }
+  
+  .booking {
+    background-color: black;
+    height: 71px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  
+  .booking {
+    background-color: black;
+    height: 71px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  
+  .footer {
+    margin-bottom: 70px;
+    background-color: #1a1a1a;
+  }
+  
+  .footer-policy {
+    border: 1px solid;
+    padding: 10px 0;
+  }
+  
+  .footer-policy ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-policy li {
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .footer-policy li:not(:last-child) {
+    border-right: 1px solid #333;
+    padding-right: 10px;
+  }
+  
+  .footer-policy li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-policy li a {
+    text-decoration: none;
+  }
+  
+  .booking-btn {
+    padding: 14px 17px;
+    border: 1px solid #424242;
+    border-radius: 3px;
+    background-color: black;
+    color: #8a8a8a;
+    margin-left: 6px;
+    font-size: 16px;
+    font-weight: 100;
+    z-index: 2;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .choice-restaurant {
+    position: absolute;
+    background-color: black;
+    bottom: 100%;
+    color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    padding: 0;
+    height: 200px;
+    overflow-y: scroll;
+    display: none;
+  }
+  
+  .choice-restaurant li {
+    padding: 17px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  .choice-restaurant li:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .social-content {
+    display: flex;
+    padding: 0;
+    height: 100%;
+    min-height: 100px;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .social-content li a:hover {
+    color: #bdbdbd;
+  }
+  
+  .social-content li a {
+    color: #848181;
+    font-size: 30px;
+    margin: 20px 0 20px 25px;
+    display: inline-block;
+  }
+  
+  .footer-policy {
+    border-bottom: 1px solid #373737;
+    border-top: 1px solid #373737;
+  }
+  
+  .footer-policy ul {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 !important;
+  }
+  
+  .footer-policy li {
+    border-right: 1px solid #373737;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 15px;
+    font-size: 13px;
+  
+  }
+  
+  .footer-policy a {
+    color: #d2d2d2;
+    text-decoration: none;
+  }
+  
+  .footer-policy li:hover {
+    background-color: #2f2f2f;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .footer-policy-last {
+    border-right: 1px solid black !important;
+  }
+  
+  .bonus {
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-size: 13.5px;
+  }
+  
+  .bonus a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  
+  .icon-booking {
+    margin-left: 70px;
+    font-size: 18px;
+  }
+  
+  .booking-table {
+    padding: 18px 40px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: #ccc8c8;
+    color: #101010;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: "BT Futura W01", Arial, sans-serif;
+    font-size: 19px;
+  }
+  
+  .booking-table:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .booking-table-extra {
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: #ccc8c8;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: "BT Futura W01", Arial, sans-serif;
+    font-size: 19px;
+    display: none;
+  }
+  
+  .booking-table-extra:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .booking-table-extra a {
+    display: block;
+    width: 100%;
+    color: #101010;
+    padding: 18px 40px
+  }
+  
+  .booking-table-btn-input {
+    padding: 8px 15px;
+    border: 1px solid #424242;
+    border-radius: 3px;
+    color: #cbc7c7;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    min-width: 200px;
+  }
+  
+  .booking-table-btn-input::-webkit-calendar-picker-indicator {
+    font-size: 25px;
+    filter: invert(70%);
+    cursor: pointer;
+  }
+  
+  #booking {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 739px) {
+  
+    .booking-table {
+      min-width: 100%;
+    }
+  
+    .bonus {
+      margin-top: 40px;
+    }
+  
+    .footer-policy ul {
+      flex-wrap: wrap;
+      display: flex;
+    }
+  
+    .footer-policy li {
+      border: 1px solid #373737 !important;
+    }
+  
+    .booking div:nth-child(1) {
+      display: none;
+    }
+  
+    .booking div:nth-child(2) {
+      margin: auto;
+    }
+  
+    .option {
+      width: 100%;
+    }
+  
+    .option div {
+      padding: 0;
+    }
+  
+    #booking {
+      display: none;
+    }
+  
+    .booking-table-extra {
+      display: block;
+      margin: auto;
+    }
+  
+    .hidden-booking {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 740px) and (max-width: 1023px) {
+  
+    .option {
+      width: 100%;
+    }
+  
+    .option div {
+      padding: 0;
+    }
+  
+    #booking {
+      display: none;
+    }
+  
+    .booking-table-extra {
+      display: block;
+      margin: auto;
+    }
+  
+    .hidden-booking {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .menu {
+      display: block;
+    }
+  
+    .menu i {
+      display: none;
+    }
+  
+    .respon-menu-active {
+      display: block !important;
+    }
+  
+  }
